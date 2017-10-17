@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.eejohnsonscu.handi2.WorkerProfiles"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+
+    <CheckBox
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:text="\n\n"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <CheckBox
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:text="\nTimmy - 1mi away\n"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <CheckBox
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:text="\nBilly - 8mi away\n"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <CheckBox
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:text="\nZiggy - 7mi away\n"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Hire"
+        android:layout_weight="0.70"
+        android:onClick="jumpToPageCongrats" />
+
+</LinearLayout>
